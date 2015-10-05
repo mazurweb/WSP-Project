@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b42b0ac3-c795-4a94-9738-d912aa0501bf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77850163" vertical-offset="1017" max-vertical-offset="2006">
-              <caret line="102" column="179" selection-start-line="102" selection-start-column="179" selection-end-line="102" selection-end-column="179" />
+            <state vertical-scroll-proportion="0.59391963" vertical-offset="422" max-vertical-offset="2006">
+              <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -258,8 +257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77850163" vertical-offset="1017" max-vertical-offset="2006">
-          <caret line="102" column="179" selection-start-line="102" selection-start-column="179" selection-end-line="102" selection-end-column="179" />
+        <state vertical-scroll-proportion="0.59391963" vertical-offset="422" max-vertical-offset="2006">
+          <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
