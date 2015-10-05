@@ -3,7 +3,32 @@
 body {
     padding: 0;
     margin: 0;
+    font-size: 14px;
+}
+p {
+    color: #111
+}
+h2 {
+    color: #00003f;
 }
 .about {
-    background-image: url('/images/coding-bg.jpg');
+    background-image: url('../images/coding-bg.jpg');
+    height: 500px;
+    background-size: cover;
+}
+.component-link {
+    color: #fff;
+}
+.component-link:hover {
+    color: #bbb;
+    text-decoration: none;
+}
+.component-link i.fa {
+    display: block!important;
+}
+.component {
+    padding: 20px;
+    background-color: rgba(82, 129, 195, 0.32);
+    border: 1px solid #00204F;
+    border-radius: 5px;
 }
