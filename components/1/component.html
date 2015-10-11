@@ -5,7 +5,7 @@
 
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="component.css" />
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	
 </head>
 <body>
@@ -23,17 +23,25 @@
             <input type="text" name="min" placeholder="Min Price"/>
             <input type="text" name="max" placeholder="Max Price"/>
             <select name="type">
-                <option></option>
-                <option></option>
-                <option></option>
+                <option>One-Way Flight</option>
+                <option>Round Trip</option>
             </select>
+            <input type="text" name="location" placeholder="Destination"/>
+            <input type="submit" name="search" value="Search" />
+
+            <section class="extra-options">
+                <input type="checkbox" name="non-stop" value="non-stop">I prefer Non-Stop Flights
+                <input type="checkbox" name="hasChild" value="haschild">I have children
+                <input type="checkbox" name="before-after" value="before-after">Check a couple days before and after chosen date.
+            </section>
         </section>
     </div>
     <section class="filter">
-        <p class="filter-button">More Options</p>
+        <p class="filter-button">More Options <i class="fa fa-caret-down"></i></p>
     </section>
 
 	<!-- End Component -->
-	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="toggle-search.js"></script>
 </body>
 </html>
