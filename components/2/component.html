@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WSP Component: Firstname Lastname</title>
+	<title>WSP Drop Down Component: Michael Mazur</title>
 
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="component.css" />
@@ -11,8 +11,38 @@
 <body>
 
 	<!-- Component -->
-
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="tcw-logo.png">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">Products</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Parts</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Computers</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Cleaning</a></li>
+                            <li><a href="#">Repair</a></li>
+                            <li><a href="#">Building</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
 	<!-- End Component -->
-	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="dropdown.js"></script>
 </body>
 </html>

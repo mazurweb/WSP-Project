@@ -2,3 +2,33 @@
 ============================================================
 ============================================================*/
 
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.search {
+    padding: 20px 20px 50px 20px;
+    background: #1F96C3;
+}
+.search p {
+    color: #fff;
+}
+select, input {
+    padding: 5px;
+    width: 15%;
+    margin: 5px 10px 0 0;
+    border-radius: 5px;
+}
+.filter {
+    width: 200px;
+    background: #1F96C3;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0 auto;
+}
+.filter p {
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}

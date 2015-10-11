@@ -1,4 +1,62 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
-
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+header {
+    overflow: auto;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.logo {
+    float: left
+}
+nav {
+    float: right;
+    margin-top: 35px;
+}
+nav ul li {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+nav ul li:hover {
+    background: #017db8;
+}
+nav ul li a {
+    color: #fff;
+    background: #01acef;
+    padding: 10px 15px;
+    margin: 0;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background: #017db8;
+}
+ul.dropdown {
+    position: absolute;
+    visibility:hidden;
+    margin: 0;
+    padding: 0;
+}
+ul.dropdown li {
+    float: none;
+    display: block;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+}
+ul.dropdown li:first-child {
+    margin-top: 10px;
+    border-top: 1px solid #fff;
+}
+ul.dropdown li a {
+    display: block;
+    border-radius: 0;
+}
+ul.dropdown li a:hover {
+    background: #017db8;
+}

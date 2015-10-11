@@ -32,3 +32,19 @@ h2 {
     border: 1px solid #00204F;
     border-radius: 5px;
 }
+.component button {
+    background-color: orange;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.component button:hover{
+    background: #E89200;
+}
+.component button a {
+    color: #fff;
+}
+.component button a:hover {
+    text-decoration: none;
+}
+
