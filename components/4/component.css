@@ -1,4 +1,57 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
-
+body {
+    font-family: 'Arial', sans-serif;
+}
+.testimonials {
+    padding: 20px 0;
+    background: #62CE4E;
+}
+.testimonials section {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: auto;
+    padding-top: 35px;
+}
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+article.testimonial {
+    width: 30%;
+    padding: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    background: #f8f8f8;
+    border-bottom-left-radius: 5px;
+    border-top: 5px solid #23B323;
+    border-bottom-right-radius: 5px;
+}
+article.testimonial:first-child {
+    margin-left: 0;
+}
+article.testimonial:last-child {
+    margin-right: 0;
+}
+.testimonial img {
+    width: 90px;
+    position: relative;
+    margin-top: -50px;
+}
+p.text {
+    color: #ccc;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+p.text i {
+    color: #23B323;
+}
+p.name {
+    font-size: 14px;
+    color: #23B323;
+}
