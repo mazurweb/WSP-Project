@@ -1,4 +1,60 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body {
+    font-family: 'Arial', sans-serif;
+}
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
 
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.latest-news {
+    width: 25%;
+    padding: 15px;
+    float: left;
+}
+.article-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.latest-news img {
+    width: 100%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    height: 131px;
+}
+.latest-news img:hover {
+    opacity: .6;
+}
+p.date {
+    font-weight: bold;
+    color: #0a2b4d;
+    margin-top: 10px;
+    font-size: 16px;
+}
+p.info {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.latest-news button {
+    background: #62CE4E;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.latest-news button:hover {
+    background: #54a749;
+}
+.latest-news button a {
+    color: #fff;
+}
